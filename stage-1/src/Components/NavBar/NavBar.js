@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import Logo from './dev-mountain-logo.png'
+import logo from './dev-mountain-logo.png';
 
 class NavBar extends Component {
   render() {
@@ -8,7 +8,7 @@ class NavBar extends Component {
       <div>
         <div className="navbar-container">
           <div className="logo-container">
-            <img className="logo-image" src={Logo} alt="" />
+            <img className="logo-image" src={logo} alt="" />
           </div>
 
           <div className="navbar-links-container">
